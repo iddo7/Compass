@@ -1,0 +1,15 @@
+:root {
+    --black: #111111;
+    --background: #FDFAF7;
+    --primary: #dcc49f;
+    --secondary: #e8e0d6;
+    --accent: #3a4d33;
+}
+
+body {
+    background-color: var(--secondary);
+}
+
+.header {
+    color: var(--black);
+}
