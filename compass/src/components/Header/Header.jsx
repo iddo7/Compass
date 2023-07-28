@@ -1,12 +1,11 @@
 import React from "react";
-import profilImageUrl from '/assets/profile-smallest.jpg'
 import './Header.css'
 
 const Header = () => {
     return (
         <>
-            <div className="container-fluid">
-                <div className="row align-items-center m-4">
+            <div className="container-fluid p-0">
+                <div className="row align-items-center m-5">
                     <div id="profile-img" className="col-2">
                     </div>
                     <div className="col-8">
