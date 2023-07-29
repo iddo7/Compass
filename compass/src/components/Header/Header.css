@@ -1,15 +1,15 @@
 
-.row {
-    margin: 50pt 0 0 0;
+#header-row {
+    margin: 2rem 0 0 2rem;
 }
 
 #profile-img {
-    width: 200px;
-    height: 200px;
+    width: 4rem;
+    height: 4rem;
     border-radius: 100%;
     background-size: cover;
     background-image: url('/assets/profile-smallest.jpg');
-    margin-right: 40pt;
+    margin: 0 1rem 0 0;
 }
 
 #username {

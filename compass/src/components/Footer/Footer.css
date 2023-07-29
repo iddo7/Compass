@@ -7,10 +7,12 @@
 }
 
 #iconBar {
-    border-radius: 22px;
+    border-radius: 12px;
     background-color: var(--background);
 }
 
 .iconBox {
-    padding: 25pt 20pt 25pt 20pt;
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 0 0 0 0;
 }

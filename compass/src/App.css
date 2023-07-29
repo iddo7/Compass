@@ -13,8 +13,8 @@ body {
     background-color: var(--secondary);
 }
 
-.header {
-    font-size: 70pt;
+h2 {
+    font-size: 1.8rem;
     font-weight: bold;
     color: var(--black);
 }

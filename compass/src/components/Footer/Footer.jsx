@@ -6,32 +6,32 @@ import { faSpotify, faSoundcloud, faYoutube, faInstagram } from '@fortawesome/fr
 const Footer = () => {
 
     const iconBarSize = 8
-    const iconSize = 7
+    const iconSize = 1
 
     const iconBarOffset = (12 - iconBarSize) / 2
 
   return (
     <>
-        <div className="container-fluid no-padding">
-            <div id="iconBar" className={`col-${iconBarSize} offset-${iconBarOffset}`}>
-                <div className="row">
+        <div className="container p-0">
+            <div className="row justify-content-center">
+                <div id="iconBar" className={`col-${iconBarSize}`}>
+                    <div className="row">
+                        <div className="iconBox col-3">
+                            <FontAwesomeIcon icon={faSpotify} size={`${iconSize}x`}/>
+                        </div>
 
-                    <div className="iconBox col-3 text-center">
-                        <FontAwesomeIcon icon={faSpotify} size={`${iconSize}x`}/>
+                        <div className="iconBox col-3">
+                            <FontAwesomeIcon icon={faSoundcloud} size={`${iconSize}x`}/>
+                        </div>
+
+                        <div className="iconBox col-3">
+                            <FontAwesomeIcon icon={faYoutube} size={`${iconSize}x`}/>
+                        </div>
+
+                        <div className="iconBox col-3">
+                            <FontAwesomeIcon icon={faInstagram} size={`${iconSize}x`}/>
+                        </div>
                     </div>
-
-                    <div className="iconBox col-3 text-center">
-                        <FontAwesomeIcon icon={faSoundcloud} size={`${iconSize}x`}/>
-                    </div>
-
-                    <div className="iconBox col-3 text-center">
-                        <FontAwesomeIcon icon={faYoutube} size={`${iconSize}x`}/>
-                    </div>
-
-                    <div className="iconBox col-3 text-center">
-                        <FontAwesomeIcon icon={faInstagram} size={`${iconSize}x`}/>
-                    </div>
-
                 </div>
             </div>
         </div>

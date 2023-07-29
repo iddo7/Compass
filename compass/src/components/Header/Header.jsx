@@ -4,13 +4,12 @@ import './Header.css'
 const Header = () => {
     return (
         <>
-            <div className="container-fluid no-padding">
-                <div className="row align-items-center">
+            <div className="container-fluid p-0">
+                <div id="header-row" className="row align-items-center">
+                    <div id="profile-img" className="col-2 offset-3 p-0"></div>
 
-                    <div id="profile-img" className="col-2 offset-1 no-padding"></div>
-
-                    <div id="username" className="col-6 no-padding">
-                        <h2 className="header">pipoco</h2>
+                    <div id="username" className="col-6 p-0">
+                        <h2>pipoco</h2>
                     </div>
 
                 </div>
