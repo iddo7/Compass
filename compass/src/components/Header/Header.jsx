@@ -4,7 +4,7 @@ import './Header.css'
 const Header = () => {
     return (
         <>
-            <div className="container-fluid p-0">
+            <div className="container-fluid no-padding">
                 <div className="row align-items-center">
 
                     <div id="profile-img" className="col-2 offset-1 no-padding"></div>
