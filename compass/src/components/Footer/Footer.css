@@ -9,6 +9,8 @@
 #iconBarContainer {
     position: fixed;
     bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 #iconBar {
@@ -17,7 +19,7 @@
 }
 
 #iconBar .row {
-    padding: 0.2rem 0 0.2rem 0;
+    padding: 0.2rem 0 0 0;
 }
 
 .iconBox {
