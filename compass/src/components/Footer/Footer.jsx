@@ -12,7 +12,7 @@ const Footer = () => {
 
   return (
     <>
-        <div className="container p-0">
+        <div id='iconBarContainer' className="container p-0">
             <div className="row justify-content-center">
                 <div id="iconBar" className={`col-${iconBarSize}`}>
                     <div className="row">

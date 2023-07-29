@@ -6,9 +6,18 @@
     --accent: #3a4d33;
 }
 
+#iconBarContainer {
+    position: fixed;
+    bottom: 1rem;
+}
+
 #iconBar {
     border-radius: 12px;
     background-color: var(--background);
+}
+
+#iconBar .row {
+    padding: 0.2rem 0 0.2rem 0;
 }
 
 .iconBox {
