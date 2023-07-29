@@ -1,0 +1,27 @@
+:root {
+    --black: #111111;
+    --background: #FDFAF7;
+    --primary: #dcc49f;
+    --secondary: #e8e0d6;
+    --accent: #3a4d33;
+}
+
+#iconBarContainer {
+    position: fixed;
+    bottom: 1rem;
+}
+
+#iconBar {
+    border-radius: 12px;
+    background-color: var(--background);
+}
+
+#iconBar .row {
+    padding: 0.2rem 0 0.2rem 0;
+}
+
+.iconBox {
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 0 0 0 0;
+}

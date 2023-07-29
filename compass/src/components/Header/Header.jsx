@@ -5,12 +5,13 @@ const Header = () => {
     return (
         <>
             <div className="container-fluid p-0">
-                <div className="row align-items-center m-5">
-                    <div id="profile-img" className="col-2">
+                <div id="header-row" className="row align-items-center">
+                    <div id="profile-img" className="col-2 offset-3 p-0"></div>
+
+                    <div id="username" className="col-6 p-0">
+                        <h2>pipoco</h2>
                     </div>
-                    <div className="col-8">
-                        <h1 className="header">pipoco</h1>
-                    </div>
+
                 </div>
             </div>
         </>

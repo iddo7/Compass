@@ -1,10 +1,17 @@
 
-
+#header-row {
+    margin: 2rem 0 0 2rem;
+}
 
 #profile-img {
-    width: 75px;
-    height: 75px;
+    width: 4rem;
+    height: 4rem;
     border-radius: 100%;
     background-size: cover;
     background-image: url('/assets/profile-smallest.jpg');
+    margin: 0 1rem 0 0;
+}
+
+#username {
+    display: inline;
 }
