@@ -1,10 +1,17 @@
 
-
+.row {
+    margin-top: 50pt;
+}
 
 #profile-img {
-    width: 75px;
-    height: 75px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     background-size: cover;
     background-image: url('/assets/profile-smallest.jpg');
+    margin-right: 40pt;
+}
+
+#username {
+    display: inline;
 }
