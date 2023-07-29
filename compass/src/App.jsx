@@ -10,7 +10,12 @@ function App() {
   return (
     <>
       <Header />
-      <Card />
+
+      <div className="container mt-5">
+        <div className="row d-flex justify-content-center">
+          <Card />
+        </div>
+      </div>
       <Footer />
     </>
   )

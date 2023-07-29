@@ -19,6 +19,12 @@ h2 {
     color: var(--black);
 }
 
+h3 {
+    font-size: 1.3rem;
+    font-weight: medium;
+    color: var(--black);
+}
+
 .no-padding {
     padding: 0;
 }
