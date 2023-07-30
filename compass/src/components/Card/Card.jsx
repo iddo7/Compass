@@ -18,7 +18,7 @@ const Card = () => {
             <div className="card-new p-0 col-9">
                 <img src={cardImgUrl} alt="Not Found" className="img-fluid"/>
                 <div className="texts-new text-center">
-                    <h3>Maybe</h3>
+                    <h3 className='m-0'>Maybe</h3>
                     <p>pipoco, Yung Rider</p>
                 </div>
             </div>
