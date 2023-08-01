@@ -2,7 +2,7 @@ import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import Header from './components/Header/Header'
-import Card from './components/Card/Card'
+import Slider from './components/Slider/Slider'
 import Footer from './components/Footer/Footer'
 
 function App() {
@@ -11,11 +11,8 @@ function App() {
     <>
       <Header />
 
-      <div className="container mt-5">
-        <div className="row d-flex justify-content-center">
-          <Card />
-        </div>
-      </div>
+          <Slider />
+          
       <Footer />
     </>
   )

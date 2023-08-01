@@ -1,0 +1,13 @@
+
+.slider {
+    width: 100%;
+    cursor: grab;
+}
+
+.slider-wrapper {
+    white-space: nowrap;
+}
+
+.slider .card {
+    position: absolute; /* or relative */
+}
