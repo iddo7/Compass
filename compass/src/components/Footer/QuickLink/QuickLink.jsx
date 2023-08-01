@@ -5,13 +5,17 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 
 library.add(fab)
 
-const QuickLink = ({ icon }) => {
+const QuickLink = ({ quickLink }) => {
+    const { link, icon } = quickLink
+
     const iconSize = 1
     return (
         <>
-            <div className="iconBox col-3">
-                <FontAwesomeIcon icon={['fab', `${ icon }`]} size={`${iconSize}x`}/>
-            </div>
+            <a href={link} target='blank'>
+                <div className="iconBox col-3">
+                    <FontAwesomeIcon icon={['fab', `${ icon }`]} size={`${iconSize}x`}/>
+                </div>
+            </a>
         </>
     )
 }
