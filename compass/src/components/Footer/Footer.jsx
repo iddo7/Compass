@@ -1,14 +1,10 @@
 import React from 'react'
 import './Footer.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSpotify, faSoundcloud, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import QuickLink from './QuickLink/QuickLink'
 
 const Footer = () => {
 
     const iconBarSize = 10
-    const iconSize = 1
-
-    const iconBarOffset = (12 - iconBarSize) / 2
 
   return (
     <>
@@ -16,21 +12,7 @@ const Footer = () => {
             <div className="row justify-content-center">
                 <div id="iconBar" className={`col-${iconBarSize} shadow`}>
                     <div className="row">
-                        <div className="iconBox col-3">
-                            <FontAwesomeIcon icon={faSpotify} size={`${iconSize}x`}/>
-                        </div>
-
-                        <div className="iconBox col-3">
-                            <FontAwesomeIcon icon={faSoundcloud} size={`${iconSize}x`}/>
-                        </div>
-
-                        <div className="iconBox col-3">
-                            <FontAwesomeIcon icon={faYoutube} size={`${iconSize}x`}/>
-                        </div>
-
-                        <div className="iconBox col-3">
-                            <FontAwesomeIcon icon={faInstagram} size={`${iconSize}x`}/>
-                        </div>
+                        <QuickLink icon='youtube'/>
                     </div>
                 </div>
             </div>
