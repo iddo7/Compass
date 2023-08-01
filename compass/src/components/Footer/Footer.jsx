@@ -5,7 +5,7 @@ import { faSpotify, faSoundcloud, faYoutube, faInstagram } from '@fortawesome/fr
 
 const Footer = () => {
 
-    const iconBarSize = 8
+    const iconBarSize = 10
     const iconSize = 1
 
     const iconBarOffset = (12 - iconBarSize) / 2
@@ -14,7 +14,7 @@ const Footer = () => {
     <>
         <div id='iconBarContainer' className="container p-0 mx-auto">
             <div className="row justify-content-center">
-                <div id="iconBar" className={`col-${iconBarSize}`}>
+                <div id="iconBar" className={`col-${iconBarSize} shadow`}>
                     <div className="row">
                         <div className="iconBox col-3">
                             <FontAwesomeIcon icon={faSpotify} size={`${iconSize}x`}/>
