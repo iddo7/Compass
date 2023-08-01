@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Spotify Link",
+        "link": "https://open.spotify.com/artist/2HHnXVfY91jkeHikuQ2PDA?si=_FWCLqsSTm2_SnesM7EksQ",
+        "icon": "spotify"
+    },
+    {
+        "id": 2,
+        "title": "SoundCloud Link",
+        "link": "https://soundcloud.com/pipocosounds",
+        "icon": "soundcloud"
+    },
+    {
+        "id": 3,
+        "title": "Youtube Link",
+        "link": "https://www.youtube.com/channel/UCMVx99yTtH1u8Djcu7bx6uw",
+        "icon": "youtube"
+    },
+    {
+        "id": 4,
+        "title": "Instagram Link",
+        "link": "https://instagram.com/pipocosounds/",
+        "icon": "instagram"
+    }
+]
