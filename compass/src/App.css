@@ -17,14 +17,24 @@ h2 {
     font-size: 1.8rem;
     font-weight: medium;
     color: var(--black);
+    margin: 0;
 }
 
 h3 {
     font-size: 1.3rem;
     font-weight: medium;
     color: var(--black);
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
 
 .no-padding {
     padding: 0;
+}
+
+.shadow {
+    box-shadow: 0 9px 21px rgba(181, 28, 28, 0.763);
 }

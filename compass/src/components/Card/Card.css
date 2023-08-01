@@ -4,71 +4,18 @@
     --card-bg: #FAF7F4;
 }
 
-p {
-  margin: 0;
-}
-
 .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 14px;
-  width: 280px;
-  height: 322.27px;
-  padding: 32px 32px 16px;
-  border-radius: 12px;
-  box-sizing: border-box;
-  background-color: rgba(250, 247, 244, 1);
-}
-.cover {
-  width: 100%;
-  height: 216px;
-}
-
-.texts {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 4px;
-  width: fit-content;
-  box-sizing: border-box;
-}
-.title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: rgba(17, 17, 17, 1);
-  font-size: 20px;
-  line-height: 20px;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  text-align: center;
-}
-
-.artist {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: rgba(17, 17, 17, 1);
-  font-size: 16px;
-  line-height: 16px;
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
-  text-align: center;
-}
-
-.card-new {
-    border-radius: 12px;
-    background-color: var(--card-bg);
-}
-
-.card-new img {
+  border: none;
+  background-color: var(--card-bg);
   padding: 8vw;
-  border-radius: 42px;
+  border-radius: 12px;
 }
 
-.texts-new {
-  margin: -4vw 0 4vw 0;
+.card img {
+  border-radius: 12px;
+  margin-bottom: 4vw;
+}
+
+.info {
+  margin: 0 0 -4vw 0;
 }
