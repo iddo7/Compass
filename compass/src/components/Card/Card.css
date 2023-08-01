@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+:root {
+    --card-bg: #FAF7F4;
+}
+
+.card {
+  border: none;
+  background-color: var(--card-bg);
+  padding: 8vw;
+  border-radius: 12px;
+}
+
+.card img {
+  border-radius: 12px;
+  margin-bottom: 4vw;
+}
+
+.info {
+  margin: 0 0 -4vw 0;
+}
