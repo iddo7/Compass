@@ -26,7 +26,7 @@ const Footer = () => {
 
                         {
                             quickLinks.map((quickLink) => {
-                                return <QuickLink quickLink={quickLink}/>
+                                return <QuickLink key={quickLink.id} quickLink={quickLink}/>
                             })
                         }
 
