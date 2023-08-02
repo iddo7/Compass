@@ -1,6 +1,6 @@
 import React from 'react'
 import './Card.css'
-import cardImgUrl from "/assets/profile-smallest.jpg"
+import cardImgUrl from "/assets/Maybe_Cover_V3-Smallest.jpg"
 
 const Card = () => {
     return (

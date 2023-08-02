@@ -1,4 +1,4 @@
-import { useState } from "react"  
+import { useState, useRef, useEffect } from "react"  
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import Header from './components/Header/Header'
@@ -9,9 +9,13 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Carousel />
-      <Footer />
+      <div className="container">
+        <div className="row">
+          <Header />
+          <Carousel />
+          <Footer />
+        </div>
+      </div>
     </>
   )
 }
