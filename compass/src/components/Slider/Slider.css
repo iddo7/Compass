@@ -8,6 +8,10 @@
     white-space: nowrap;
 }
 
+.slider-item {
+    display: inline-block;
+}
+
 .slider .card {
-    position: absolute; /* or relative */
+    position: relative; /* or relative */
 }
