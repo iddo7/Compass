@@ -1,7 +1,6 @@
 import React from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import { DotButton, useDotButton } from './EmblaCarouselDotButton'
-import imageByIndex from './imageByIndex'
 import Card from './Card/Card'
 
 const EmblaCarousel = (props) => {
@@ -17,13 +16,6 @@ const EmblaCarousel = (props) => {
         <div className="embla__container">
           {slides.map((index) => (
             <div className="embla__slide" key={index}>
-              {/** 
-              <img
-                className="embla__slide__img"
-                src={imageByIndex(index)}
-                alt="Your alt text"
-              />
-              */}
               <Card key={index} />
             </div>
           ))}
