@@ -3,6 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
+import EmblaCarousel from "./components/Carousel/EmblaCarousel"
+import './embla-css/embla.css'
+
+const OPTIONS = { containScroll: false }
+const SLIDE_COUNT = 5
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 
 function App() {
 
@@ -11,6 +17,9 @@ function App() {
       <div className="container">
         <div className="row">
           <Header />
+          <section className="sandbox__carousel">
+            <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+          </section>
           <Footer />
         </div>
       </div>
