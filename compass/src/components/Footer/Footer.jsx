@@ -3,9 +3,6 @@ import './Footer.css'
 import QuickLink from './QuickLink/QuickLink'
 
 const Footer = () => {
-
-    const iconBarSize = 10
-
     const [quickLinks, setQuickLinks] = useState([])
 
     useEffect(() => {
@@ -19,14 +16,14 @@ const Footer = () => {
 
     return (
         <>
-            <div id='iconBarContainer' className="container p-0 mx-auto">
+            <div id='iconBarContainer' className="p-0 mx-auto">
                 <div className="row justify-content-center">
-                    <div id="iconBar" className={`col-${iconBarSize} shadow`}>
+                    <div id="iconBar" className={`col-10 col-xl-8 shadow`}>
                         <div className="row">
 
                         {
                             quickLinks.map((quickLink) => {
-                                return <QuickLink quickLink={quickLink}/>
+                                return <QuickLink key={quickLink.id} quickLink={quickLink}/>
                             })
                         }
 
