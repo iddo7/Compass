@@ -9,12 +9,13 @@
 
 .embla {
     --slide-spacing: 1rem;
-    --slide-size: 95%;
-    --slide-height: 19rem;
-    padding: 1.6rem;
+    --slide-size: 80%;
+    --slide-height: 50rem;
   }
   .embla__viewport {
     overflow: hidden;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
   }
   .embla__container {
     backface-visibility: hidden;
@@ -28,12 +29,6 @@
     padding-left: var(--slide-spacing);
     position: relative;
   }
-  .embla__slide__img {
-    display: block;
-    height: var(--slide-height);
-    width: 100%;
-    object-fit: cover;
-  }
   .embla__dot {
     -webkit-appearance: none;
     background-color: transparent;
@@ -43,7 +38,7 @@
     cursor: pointer;
     border: 0;
     padding: 0;
-    margin: 0;
+    margin-top: -1rem;
   }
   .embla__dots {
     z-index: 1;
