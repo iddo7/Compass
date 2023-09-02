@@ -4,7 +4,7 @@ import './App.css'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import EmblaCarousel from "./components/Carousel/EmblaCarousel"
-import './embla-css/embla.css'
+import './components/Carousel/embla.css'
 
 const OPTIONS = { containScroll: false }
 const SLIDE_COUNT = 5
