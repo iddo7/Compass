@@ -40,7 +40,50 @@ p {
 }
 
 .sandbox__carousel {
+    padding: 0;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+
+/* Smartphones and small devices */
+@media (width <= 500px) {
+    body {
+        background-color: red;
+    }
+}
+
+
+/* Tablets */
+@media (500px < width <= 768px) {
+    body {
+        background-color: green;
+    }
+
+    .sandbox__carousel {
+    }
+
+    .embla {
+        --slide-size: 50rem;
+    }
+    
+}
+
+
+/* Large devices */
+@media (768px < width <= 1200px) {
+    body {
+        background-color: blue;
+    }
+    
+}
+
+
+/* Ultra-large devices */
+@media (width > 1200px) {
+    body {
+        background-color: yellow;
+    }
+    
 }

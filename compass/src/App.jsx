@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <Header />
           <section className="sandbox__carousel">

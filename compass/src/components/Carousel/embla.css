@@ -8,8 +8,8 @@
 }
 
 .embla {
-    --slide-spacing: 1rem;
-    --slide-size: 80%;
+    --slide-spacing: 1.5rem;
+    --slide-size: 19rem;
     --slide-height: 50rem;
   }
   .embla__viewport {
@@ -76,3 +76,16 @@
     );
   }
   
+
+/* Tablets */
+@media (500px < width <= 768px) {
+    body {
+        background-color: green;
+    }
+
+    .embla {
+        --slide-size: 22rem;
+        --slide-spacing: 3rem;
+    }
+    
+}
