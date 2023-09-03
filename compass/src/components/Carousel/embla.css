@@ -79,13 +79,48 @@
 
 /* Tablets */
 @media (500px < width <= 768px) {
-    body {
-        background-color: green;
-    }
-
     .embla {
-        --slide-size: 22rem;
-        --slide-spacing: 3rem;
+        --slide-size: 36rem;
+        --slide-spacing: 6rem;
     }
     
 }
+
+
+/* Medium devices */
+@media (768px < width <= 1200px) {
+  .embla {
+      --slide-size: 46rem;
+      --slide-spacing: 5rem; 
+  }
+  
+}
+/* Medium devices landscape */
+@media (768px < width <= 1200px) and (orientation : landscape) {
+  .embla {
+      --slide-size: 25rem;
+      --slide-spacing: 10rem;
+  }
+  
+}
+
+
+/* Large devices */
+@media (1200px < width <= 1700px) {
+  .embla {
+      --slide-size: 40rem;
+      --slide-spacing: 10rem;
+  }
+    
+}
+
+
+/* Ultra-Large devices */
+@media (width > 1700px) {
+  .embla {
+      --slide-size: 60rem;
+      --slide-spacing: 18rem;
+  }
+    
+}
+
