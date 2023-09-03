@@ -108,8 +108,8 @@
 /* Large devices */
 @media (1200px < width <= 1700px) {
   .embla {
-      --slide-size: 40rem;
-      --slide-spacing: 10rem;
+      --slide-size: 36rem;
+      --slide-spacing: 13rem;
   }
     
 }
@@ -118,7 +118,7 @@
 /* Ultra-Large devices */
 @media (width > 1700px) {
   .embla {
-      --slide-size: 60rem;
+      --slide-size: 55rem;
       --slide-spacing: 18rem;
   }
     

@@ -60,6 +60,16 @@ p {
     body {
         background-color: green;
     }
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
     
 }
 
@@ -71,7 +81,30 @@ p {
     body {
         background-color: blue;
     }
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
     
+  }
+  /* Medium devices landscape */
+  @media (768px < width <= 1200px) and (orientation : landscape) {
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
   }
   
   
