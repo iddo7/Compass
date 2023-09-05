@@ -18,7 +18,7 @@ const Footer = () => {
         <>
             <div id='iconBarContainer' className="p-0 mx-auto">
                 <div className="row justify-content-center">
-                    <div id="iconBar" className={`col-10 col-xl-8 shadow`}>
+                    <div id="iconBar" className={`col-10 col-xl-5 shadow`}>
                         <div className="row">
 
                         {

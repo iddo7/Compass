@@ -34,3 +34,46 @@
 a {
     display: contents;
 }
+
+
+/* Tablets */
+@media (500px < width <= 768px) {
+    .iconBox {
+        font-size: 2.6rem;
+        margin: 0.3rem 0 0.3rem 0;
+        padding: 0 0 0 0;
+    }
+}
+
+
+/* Medium devices */
+@media (768px < width <= 1200px) {
+    .iconBox {
+        font-size: 3rem;
+        margin: 0.3rem 0 0.3rem 0;
+        padding: 0 0 0 0;
+    }
+}
+/* Medium devices landscape */
+@media (768px < width <= 1200px) and (orientation : landscape) {
+    .iconBox {
+        font-size: 2rem;
+        margin: 0.3rem 0 0.3rem 0;
+        padding: 0 0 0 0;
+    }
+}
+
+
+/* Large devices */
+@media (1200px < width <= 1700px) {
+}
+
+
+/* Ultra-Large devices */
+@media (width > 1700px) {
+    .iconBox {
+        font-size: 3rem;
+        margin: 0.3rem 0 0.3rem 0;
+        padding: 0 0 0 0;
+    }
+}

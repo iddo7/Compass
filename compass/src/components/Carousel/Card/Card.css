@@ -7,15 +7,51 @@
 .card {
   border: none;
   background-color: var(--card-bg);
-  padding: 8vw;
+  padding: 2rem;
   border-radius: 12px;
 }
 
 .card img {
   border-radius: 12px;
-  margin-bottom: 4vw;
+  margin-bottom: 1.1rem;
 }
 
 .info {
-  margin: 0 0 -4vw 0;
+  margin: 0 0 -1.1rem 0;
+}
+
+
+/* Medium devices */
+@media (768px < width <= 1200px) {
+    .card {
+      padding: 2.8rem;
+    }
+        
+}
+/* Medium devices landscape */
+@media (768px < width <= 1200px) and (orientation : landscape) {
+  .card {
+    padding: 2rem;
+  }
+      
+}
+
+
+/* Large devices */
+@media (width > 1200px) {
+  .card {
+    padding: 3rem;
+  }
+    
+}
+
+/* Ultra-Large devices */
+@media (width > 1700px) {
+  .card {
+    padding: 4rem;
+  }
+  
+  .info {
+    margin: 0 0 -2.2rem 0;
+  }
 }
