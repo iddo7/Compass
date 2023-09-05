@@ -49,17 +49,11 @@ p {
 
 /* Smartphones and small devices */
 @media (width <= 500px) {
-    body {
-        background-color: red;
-    }
 }
 
 
 /* Tablets */
 @media (500px < width <= 768px) {
-    body {
-        background-color: green;
-    }
     h2 {
         font-size: 2.5rem;
     }
@@ -78,9 +72,6 @@ p {
 
 /* Medium devices */
 @media (768px < width <= 1200px) {
-    body {
-        background-color: blue;
-    }
     h2 {
         font-size: 2.5rem;
     }
@@ -110,9 +101,6 @@ p {
   
   /* Large devices */
   @media (1200px < width <= 1700px) {
-    body {
-        background-color: yellow;
-    }
     h2 {
         font-size: 2rem;
     }
@@ -128,9 +116,6 @@ p {
   
   /* Ultra-Large devices */
   @media (width > 1700px) {
-    body {
-        background-color: orange;
-    }
     h2 {
         font-size: 3.5rem;
     }
